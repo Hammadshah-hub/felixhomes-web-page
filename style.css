@@ -71,7 +71,7 @@
     left: -10%;
     top: 5%;
     height: 200px;
-    width: 50%;
+    width: 100%;
     transform: rotate(320deg);
 }
 
@@ -534,4 +534,6 @@
 .QuarterCircleWithCircle_blue__NIFvH {
     background-color: #5577f2;
 }
+
+
 
