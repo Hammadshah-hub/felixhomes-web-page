@@ -427,6 +427,9 @@
     color: #233759;
      font-size: 17px;
 }
+.last{
+    font-size: 12px !important;
+}
 .btns{
     
             padding: 10px 0px;
@@ -531,3 +534,4 @@
 .QuarterCircleWithCircle_blue__NIFvH {
     background-color: #5577f2;
 }
+
