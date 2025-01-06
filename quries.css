@@ -383,27 +383,51 @@
         }
         .sec-5-container {
             padding-left: 0px;
-            padding: 0px 13px;
+            padding: 0px 23px;
+            justify-content: space-around;
+        }
+         .sec-6-container{
+            padding: 30px 23px;
+         }
+         .sec-8-container{
+           padding: 30px 23px;
+         }
+        .sec-8-text h3 {
+            text-align: left;
+
+        }
+        .sec-8-text h2 {
+            text-align: left;
+            white-space:inherit;
+        }
+        .sec-6-text {
+            padding: 0px 23px;
+        }
+        .sec-6-text h3 {
+            text-align: left;
+        }
+        .sec-6-text h2 {
+            text-align: left;
         }
         .sec-3-right-text h2,
         .sec-6-text h2 {
             font-size: 23px;
         }
         .sec-4-container {
-                padding: 0px 13px;
+                padding: 30px 23px;
                 gap: 0;
         }
         .sec-3-container {
-                padding: 0px 13px;
+                padding: 0px 23px;
         }
         .sec-5-content h2 {
-                padding: 0px 13px;
+                padding: 0px 23px;
         }
         .home-card-container {
-                padding: 0px 13px;
+                padding: 0px 23px;
         }
         .sec-7-container {
-                padding: 10px 13px;
+                padding: 10px 23px;
                 gap: 0;
         }
         .sec-6-left-img img {
@@ -414,10 +438,32 @@
             line-height: 0.9;
         }
         .articles-container {
-            padding: 0px 13px;
+            padding: 0px 0px;
         }
         .sec-9-articles {
-            padding: 0px 13px;
+            padding: 0px 0px;
+        }
+        .mid-flex {
+            padding: 0px 23px;
+        }
+        .sec-9-text h3 {
+            padding-top: 0px;
+        }
+        .sec-9-imgs {
+        padding: 0 0px;
+        }
+        .sec10-container {
+            margin-top: 0px;
+            padding: 10px 0px;
+        }
+        .sec10-content {
+            padding: 0px 0px;
+        }
+        .sec10-container h3 {
+        padding: 10px 0px
+        }
+        .sec10-container p {
+        padding: 0px 0px;
         }
     .ex-right-nav {
             flex-direction: column;
@@ -434,15 +480,26 @@
             flex-direction: column;
                 }
     .main{
-            margin: 27px 65px;
+            margin: 0px 0px;
+           
     }
-       
+    .maain{
+            padding: 30px 23px;
+
+    }
+        .sec-4-container p {
+            padding-left: 0px;
+        }
     
         .zillow-img img{
-            height: 28px;
+            height: 55px;
         }
         
         .google-img img {
-             height: 28px;
+             height: 85px;
                 }
+}
+
+.ContentCard_pattern-right__yt_bv ContentCard_pattern__ddMz0{
+    overflow: hidden;
 }
