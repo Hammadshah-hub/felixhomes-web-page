@@ -457,13 +457,13 @@
             padding: 10px 0px;
         }
         .sec10-content {
-            padding: 0px 0px;
+            padding: 8px 5px;
         }
         .sec10-container h3 {
         padding: 10px 0px
         }
         .sec10-container p {
-        padding: 0px 0px;
+        padding: 0px 10px;
         }
     .ex-right-nav {
             flex-direction: column;
@@ -492,14 +492,36 @@
         }
     
         .zillow-img img{
-            height: 50px;
+            height: 30px;
         }
         
         .google-img img {
-             height: 75px;
+             height: 55px;
                 }
+        .image2 img {
+            padding-left: 0px;
+            height: 20px;
+        }
+        .image1 img {
+            padding-left: 0px;
+            height: 20px;
+        }
 }
-
+br{
+    display: none;
+}
 .ContentCard_pattern-right__yt_bv{
     overflow: hidden;
+}
+
+.Navi a{
+    padding: 2px 20px;
+}
+.logo-flex {
+    gap: 0;
+    display: block;
+}
+.footer-text {
+    flex-direction: column;
+    text-align: left; 
 }
