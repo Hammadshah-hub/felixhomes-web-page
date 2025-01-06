@@ -184,7 +184,7 @@
 
 .hero-txt {
     margin-left: 83px;
-    margin-top: 136px;
+    margin-top: 45px;
 }
 
 .hero-txt h1 {
@@ -204,6 +204,7 @@
 
 .hero-img {
     margin-right: 5px;
+    margin-top: -70px;
 
 }
 
@@ -396,11 +397,15 @@
         justify-content: center;
 }
 .Navi{
-        background-color: blue;
+        background-color: #5577f2;
             text-align: center;
+            padding: 5px 0px;
+            font-size: 15px;
 }
 .Navi a{
     color: white;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .third{
@@ -548,12 +553,12 @@
 
 
 .sec-3-container {
-    display: flex;
-    justify-content: center;
-    padding: 65px;
-    padding-left: 100px;
-    justify-content: center;
-    gap: 60px;
+        display: flex;
+            justify-content: center;
+            padding: 30px 65px;
+            padding-left: 100px;
+            justify-content: center;
+            gap: 85px;
 }
 
 .sec-4-container {
@@ -704,7 +709,7 @@
     position: relative;
     width: 100%;
     z-index: -1;
-    min-height: 815px;
+    min-height: 753px;
 
    
 }
@@ -840,6 +845,7 @@
     position: relative;
     gap: 42px;
     padding: 16px 0px;
+    
 }
 
 .card-detail {
@@ -927,20 +933,20 @@
     color: #fff;
     border: 1px solid #fff;
     font-weight: 500;
-    padding: 15px 57px;
+    padding: 15px 45px;
     border-radius: 10px;
     font-size: 16px;
 }
 
 /*-------------------------*/
 .cards {
-    display: flex;
-    justify-content: center;
-    gap: 42px;
-    padding: 16px 0;
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
+        display: flex;
+            justify-content: center;
+            gap: 42px;
+            padding: 30px 70px;
+            position: relative;
+            max-width: 1200px;
+            margin: 0 auto;
 }
 
 .rev-card {
@@ -973,7 +979,7 @@
 
 .check-flex {
     display: flex;
-    gap: 102px;
+    gap: 135px;
     padding-top: 12px;
 }
 
@@ -984,7 +990,7 @@
 
 .check-flex2 {
     display: flex;
-    gap: 72px;
+    gap: 105px;
     padding-top: 12px;
 }
 
@@ -1002,12 +1008,12 @@
 }
 
 .sec-5-container {
-    display: flex;
-    justify-content: center;
-    padding: 86px;
-    padding-left: 5px;
-    justify-content: center;
-    gap: 116px;
+        display: flex;
+            justify-content: center;
+            padding: 86px;
+            padding-left: 41px;
+            justify-content: center;
+            gap: 119px;
 }
 
 .sec-6-text h3 {
@@ -1034,7 +1040,7 @@
 .home-card-container {
     max-width: 1350px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 7px 127px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
@@ -1113,11 +1119,11 @@
 
 .sec-7-container {
     display: flex;
-    padding: 65px 0px;
+    padding: 75px 0px;
     justify-content: space-around;
     padding-bottom: 42px;
     padding-left: 140px;
-    gap: 100px;
+    gap: 134px;
     margin: 0 auto;
     max-width: 1350px;
     width: 100%;
@@ -1207,7 +1213,7 @@
 .articles-container {
     max-width: 1350px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0px 62px;
 }
 
 .sec-9-articles {
@@ -1259,8 +1265,8 @@
 }
 
 .art-heading {
-    font-size: 1.125rem;
-    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 700;
     line-height: 1.25;
     color: #233759;
     margin: 0;
@@ -1392,6 +1398,7 @@
 }
 
 .sec10-container h3 {
+    padding: 0px 55px;
     font-size: 36px;
     font-weight: 700;
     line-height: 1;
@@ -1404,6 +1411,7 @@
 }
 
 .sec10-container p {
+    padding: 0px 30px;
     text-align: center;
     font-size: calc(1rem* 1.125);
     font-weight: 200;
@@ -1697,6 +1705,7 @@
     position: relative;
     overflow: hidden;
     z-index: 1;
+    margin-top: -25px;
 }
 
 .QuarterCircleWithCircle_quarter-circle__2_6uK {
