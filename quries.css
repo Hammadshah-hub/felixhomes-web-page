@@ -242,6 +242,7 @@
     .a-1, .a-2, .a-3 {
       width: 100%;
       padding: 0;
+      padding-bottom: 20px;
     }
   
     .logo-flex {
@@ -401,7 +402,7 @@
             white-space:inherit;
         }
         .sec-6-text {
-            padding: 0px 33px;
+            padding: 0px 0px;
         }
         .sec-6-text h3 {
             text-align: left;
@@ -424,7 +425,7 @@
                 padding: 0px 33px;
         }
         .home-card-container {
-                padding: 0px 33px;
+                padding: 0px 0px;
         }
         .sec-7-container {
                 padding: 10px 33px;
@@ -535,4 +536,22 @@ br{
 .footer-text {
     flex-direction: column;
     text-align: left; 
+}
+.sec10-btn  {
+    min-width: 100%;
+}
+.art-btn{
+    min-width: 100%;
+}
+.sec5button {
+    min-width: 100%;
+}
+.sec5-btn1 {
+    min-width: 100%;
+}
+.rev-button {
+    min-width: 100%;
+}
+.rev-btn-flex {
+    padding: 30px 10px;
 }
