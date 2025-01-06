@@ -1240,7 +1240,7 @@
     grid-template-columns: 200px 1fr 50px;
     gap: 20px;
     background-color: #f9f9f9;
-    padding: 15px;
+    padding: 5px;
     border-radius: 15px;
     align-items: start;
 }
