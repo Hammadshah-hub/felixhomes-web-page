@@ -537,21 +537,7 @@ br{
     flex-direction: column;
     text-align: left; 
 }
-.sec10-btn  {
-    min-width: 100%;
-}
-.art-btn{
-    min-width: 100%;
-}
-.sec5button {
-    min-width: 100%;
-}
-.sec5-btn1 {
-    min-width: 100%;
-}
-.rev-button {
-    min-width: 100%;
-}
+
 .rev-btn-flex {
     padding: 30px 10px;
 }
