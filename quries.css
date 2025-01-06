@@ -518,7 +518,7 @@
             padding-left: 0px;
             height: 20px;
         }
-}
+
 br{
     display: none;
 }
@@ -537,10 +537,29 @@ br{
     flex-direction: column;
     text-align: left; 
 }
+.sec10-btn {
+    width: 100%;
+}
 
+.art-btn {
+    width: 100%;
+}
+
+.sec5button {
+    width: 100%;
+}
+
+.sec5-btn1 {
+    width: 100%;
+}
+
+.rev-button {
+    width: 100%;
+}
 .rev-btn-flex {
     padding: 30px 10px;
 }
 .chat-btn {
     padding: 0px 20px;
+}
 }
