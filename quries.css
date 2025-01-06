@@ -372,7 +372,7 @@
                 display: none;
             }
         .cards{
-                padding: 20px 20px;
+                padding: 30px 33px;
         }    
         .card-detail {
                 width: 100%;
@@ -383,14 +383,14 @@
         }
         .sec-5-container {
             padding-left: 0px;
-            padding: 0px 23px;
+            padding: 0px 33px;
             justify-content: space-around;
         }
          .sec-6-container{
-            padding: 30px 23px;
+            padding: 30px 33px;
          }
          .sec-8-container{
-           padding: 30px 23px;
+           padding: 30px 33px;
          }
         .sec-8-text h3 {
             text-align: left;
@@ -401,7 +401,7 @@
             white-space:inherit;
         }
         .sec-6-text {
-            padding: 0px 23px;
+            padding: 0px 33px;
         }
         .sec-6-text h3 {
             text-align: left;
@@ -414,20 +414,20 @@
             font-size: 23px;
         }
         .sec-4-container {
-                padding: 30px 23px;
+                padding: 30px 33px;
                 gap: 0;
         }
         .sec-3-container {
-                padding: 0px 23px;
+                padding: 0px 33px;
         }
         .sec-5-content h2 {
-                padding: 0px 23px;
+                padding: 0px 33px;
         }
         .home-card-container {
-                padding: 0px 23px;
+                padding: 0px 33px;
         }
         .sec-7-container {
-                padding: 10px 23px;
+                padding: 10px 33px;
                 gap: 0;
         }
         .sec-6-left-img img {
@@ -444,7 +444,7 @@
             padding: 0px 0px;
         }
         .mid-flex {
-            padding: 0px 23px;
+            padding: 0px 33px;
         }
         .sec-9-text h3 {
             padding-top: 0px;
@@ -484,7 +484,7 @@
            
     }
     .maain{
-            padding: 30px 23px;
+            padding: 30px 33px;
 
     }
         .sec-4-container p {
@@ -492,14 +492,14 @@
         }
     
         .zillow-img img{
-            height: 55px;
+            height: 50px;
         }
         
         .google-img img {
-             height: 85px;
+             height: 75px;
                 }
 }
 
-.ContentCard_pattern-right__yt_bv ContentCard_pattern__ddMz0{
+.ContentCard_pattern-right__yt_bv{
     overflow: hidden;
 }
