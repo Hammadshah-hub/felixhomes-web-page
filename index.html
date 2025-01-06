@@ -28,35 +28,66 @@
                     </div>
                 </div>
             </div>
-           
-            <div class="nav-container" id="container1">
-                
-                <div class="nav-left-flex">
-                    <div class="left-nav">
-                        <img src="https://www.felixhomes.com/images/logo_white.svg" alt="Logo">
-                    </div>
-                    <div class="right-nav">
-                        <ul class="nav-list">
-                            <li>Sell</li>
-                            <li>Buy</li>
-                            <li>Search Homes</li>
-                            <li>Reviews</li>
-                            <li>Blog</li>
-                            <li>Platinum</li>
-                            <li>Make Offer</li>
-                        </ul>
-                    </div>
+           <!-- menu and cancel -->
+
+        <div class="nav-container" id="container1">
+            <div class="nav-left-flex">
+                <div class="left-nav">
+                    <img src="https://www.felixhomes.com/images/logo_black.svg" alt="Logo">
                 </div>
-                <div class="ex-right-nav">
-                    <div class="phone-nav">
+                <div class="right-nav">
+                    <ul class="nav-list">
+                        <li>Sell</li>
+                        <li>Buy</li>
+                        <li>Search Homes</li>
+                        <li>Reviews</li>
+                        <li>Blog</li>
+                        <li>Platinum</li>
+                        <li>Make Offer</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ex-right-nav">
+                <div class="phone-nav">
+                    <img src="images/icons8-call-50.png" alt="">
+                    <a href="#">615.354.5731</a>
+                </div>
+                <div class="account-nav">
+                    <img src="images/icons8-account-24.png" alt="">
+                </div>
+            </div>
+            <button class="menu-btn" onclick="openMenu()">☰</button>
+        </div>
+        
+        <div class="menu-modal" id="menuModal">
+            <div class="menu-content">
+                <!-- Close button for the modal -->
+                <button class="close-btn" onclick="closeMenu()">×</button>
+                <ul>
+                    <li>Sell</li>
+                    <li>Buy</li>
+                    <li>Search Homes</li>
+                    <li>Reviews</li>
+                    <li>Blog</li>
+                    <li>Platinum</li>
+                    <li>Make Offer</li>
+                </ul>
+                <div class="contact-info">
+                    <div>
                         <img src="images/icons8-call-50.png" alt="">
                         <a href="#">615.354.5731</a>
                     </div>
-                    <div class="account-nav">
+                    <div>
                         <img src="images/icons8-account-24.png" alt="">
                     </div>
                 </div>
+                <!-- Cancel button to close the modal -->
+                <button class="cancel-btn" onclick="closeMenu()">Cancel</button>
             </div>
+        </div>
+
+
+           
         </header>
         
     </section>
@@ -609,7 +640,20 @@
         </footer>
     </section>
     
-   
+   <script>
+    
+    // Function to open the menu (modal)
+        function openMenu() {
+            document.getElementById('menuModal').classList.add('active');
+        }
+
+        // Function to close the menu (modal)
+        function closeMenu() {
+            document.getElementById('menuModal').classList.remove('active');
+        }
+
+
+   </script>
 </body>
 
 </html>

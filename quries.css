@@ -374,6 +374,9 @@
         .cards{
                 padding: 20px 20px;
         }    
+        .card-detail {
+                width: 95%;
+        }
     .ex-right-nav {
             flex-direction: column;
             color: #fff;
