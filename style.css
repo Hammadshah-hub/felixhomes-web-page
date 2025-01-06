@@ -1097,7 +1097,7 @@
     }
 
     .sec-6-text {
-        padding: 0 45px;
+        padding: 10px 45px;
     }
 }
 
@@ -1907,4 +1907,7 @@
     .menu-btn {
         display: block;
     }
+        .contact-info img {
+            height: 20px;
+}
 }
